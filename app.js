@@ -93,7 +93,7 @@ function checkMatch() {
   } else {
     cards[optionOneId].setAttribute('src', images / blank.png);
     cards[optionTwoId].setAttribute('src', images / blank.png);
-    alert('Sorry Try Agaun!');
+    alert('Sorry Try Again!');
   }
   resultDisplay.textContent = cardsWon.length;
   cardsChosen = [];
